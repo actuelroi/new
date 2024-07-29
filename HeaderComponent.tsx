@@ -25,7 +25,7 @@ const HeaderComponent = () => {
                         <MenubarItem>Découvrir les Startups </MenubarItem>
                             <MenubarSeparator />
                             <MenubarItem>
-                                    S'inscrire en tant que Startup... <MenubarShortcut>⌘,</MenubarShortcut>
+                                    <Link href={'/Startup'}>S'inscrire en tant que Startup... </Link><MenubarShortcut>⌘,</MenubarShortcut>
                             </MenubarItem>
                             <MenubarSeparator />
                         <MenubarItem>
@@ -44,7 +44,7 @@ const HeaderComponent = () => {
                         <MenubarItem>Découvrir les Opportunités  </MenubarItem>
                             <MenubarSeparator />
                             <MenubarItem>
-                            S'inscrire en tant qu'Investisseur ... <MenubarShortcut>⌘,</MenubarShortcut>
+                              <Link href={"/Investor"} >S'inscrire en tant qu'Investisseur ... </Link>    <MenubarShortcut>⌘,</MenubarShortcut>
                             </MenubarItem>
                             <MenubarSeparator />
                         <MenubarItem>

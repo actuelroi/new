@@ -32,13 +32,13 @@ const SingleBlog = ({title, coverImage, excerpt, date, slug}: iAppProps) => {
         </Link>
       </div>
       <div>
-        <span className="mb-2 inline-block rounded bg-primary px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
+        <span className="mb-2 inline-block rounded bg-[#DC2626] px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
           {format(new Date(date), "dd MMM yyyy")}
         </span>
         <h3>
           <Link
             href={`/blogs/${slug}`}
-            className="mb-1 inline-block text-lg font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary "
+            className="mb-1 inline-block text-lg font-semibold text-dark hover:text-[#DC2626] dark:text-white dark:hover:text-primary "
           >
             {title}
           </Link>

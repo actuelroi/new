@@ -2,7 +2,7 @@
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { MenuIcon } from "lucide-react";
 import { RxAvatar } from "react-icons/rx";
-import {LogoutLink,} from "@kinde-oss/kinde-auth-nextjs/components";
+
 
 import Link from "next/link";
 
@@ -35,7 +35,7 @@ const UserItem = async () => {
                            </DropdownMenuItem>
                            <DropdownMenuSeparator/>
                            <DropdownMenuItem>
-                                <LogoutLink>Deconexion</LogoutLink>
+                                Deconexion
                             </DropdownMenuItem>
             </DropdownMenuContent>
 
